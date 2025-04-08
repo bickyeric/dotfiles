@@ -7,3 +7,5 @@ source_if_exists () {
 source_if_exists $HOME/.env.sh
 source_if_exists $DOTFILES/zsh/oh-my.zsh
 source_if_exists $DOTFILES/zsh/aliases.zsh
+
+source_if_exists $HOME/.zshrc.local
