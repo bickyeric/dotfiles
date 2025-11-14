@@ -1,0 +1,11 @@
+{
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.tabSize": 2,
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "security.workspace.trust.untrustedFiles": "open"
+}
