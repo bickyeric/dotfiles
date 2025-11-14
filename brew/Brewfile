@@ -1,0 +1,4 @@
+brew "docker"
+brew "docker-compose"
+cask "font-hack-nerd-font"
+vscode "ms-vscode-remote.remote-containers"
