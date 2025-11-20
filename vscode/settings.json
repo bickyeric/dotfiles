@@ -2,10 +2,52 @@
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "containers.containerClient": "com.microsoft.visualstudio.containers.podman",
+  "dev.containers.dockerComposePath": "podman compose",
+  "dev.containers.dockerPath": "podman",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "docker.extension.dockerEngineAvailabilityPrompt": false,
+  "docker.extension.enableComposeLanguageServer": false,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.lineNumbers": "on",
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "all",
+  "editor.stickyScroll.enabled": true,
+  "editor.stickyTabStops": true,
   "editor.tabSize": 2,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "files.associations": {
+    "*-compose.yml": "dockercompose"
+  },
+  "files.autoSave": "afterDelay",
+  "files.insertFinalNewline": true,
   "github.copilot.nextEditSuggestions.enabled": true,
-  "security.workspace.trust.untrustedFiles": "open"
+  "gitlens.defaultTimeFormat": null,
+  "gitlens.hovers.currentLine.over": "line",
+  "go.coverOnSingleTest": true,
+  "go.coverOnSingleTestFile": true,
+  "go.toolsManagement.autoUpdate": true,
+  "notebook.stickyScroll.enabled": true,
+  "remote.autoForwardPortsSource": "hybrid",
+  "rest-client.previewOption": "exchange",
+  "security.workspace.trust.untrustedFiles": "open",
+  "sqltools.historySize": 50,
+  "sqltools.results.limit": 10,
+  "sqltools.results.reuseTabs": "connection",
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.stickyScroll.enabled": true,
+  "terminal.integrated.suggest.enabled": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.tree.enableStickyScroll": true
 }
