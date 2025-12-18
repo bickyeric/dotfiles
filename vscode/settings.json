@@ -49,5 +49,15 @@
   "terminal.integrated.stickyScroll.enabled": true,
   "terminal.integrated.suggest.enabled": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "workbench.tree.enableStickyScroll": true
+  "workbench.tree.enableStickyScroll": true,
+  "dev.containers.defaultExtensions": [
+    "eamodio.gitlens",
+    "esbenp.prettier-vscode"
+  ],
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "dev.containers.repositoryConfigurationPaths": [
+    "~/.devcontainer"
+  ]
 }
