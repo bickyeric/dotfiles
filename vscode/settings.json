@@ -8,16 +8,62 @@
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "claudeCode.hideOnboarding": true,
+  "claudeCode.lockEditorGroups": false,
+  "claudeCode.preferredLocation": "panel",
   "containers.containerClient": "com.microsoft.visualstudio.containers.podman",
+  "containers.orchestratorClient": "com.microsoft.visualstudio.orchestrators.podmancompose",
+  "dbcode.connections": [
+    {
+      "authMethod": "password",
+      "connectionId": "EV6Wnny9l7KdOn38FGqJk",
+      "connectionTimeout": 30,
+      "connectionType": "host",
+      "database": "capital-dev",
+      "driver": "postgres",
+      "host": "db",
+      "idleTimeout": 300,
+      "introspection": {
+        "batchSize": 100,
+        "cacheTTL": 7,
+        "prefetchAll": false,
+        "progressive": true,
+        "updateStatistics": false
+      },
+      "maxConnections": 10,
+      "name": "capital-go-api local",
+      "password": "",
+      "pinnedConnectionTimeout": "0",
+      "port": 5432,
+      "postConnectionSqlType": "inline",
+      "readOnly": false,
+      "savePassword": "secretStorage",
+      "ssl": false,
+      "username": "postgres"
+    }
+  ],
+  "dbcode.resultLocation": "panel",
+  "dev.containers.defaultExtensions": [
+    "eamodio.gitlens",
+    "esbenp.prettier-vscode"
+  ],
   "dev.containers.dockerComposePath": "podman compose",
   "dev.containers.dockerPath": "podman",
-  "diffEditor.ignoreTrimWhitespace": false,
+  "dev.containers.optimisticallyLaunchDocker": false,
+  "dev.containers.repositoryConfigurationPaths": [
+    "~/.devcontainer"
+  ],
+  "diffEditor.ignoreTrimWhitespace": true,
   "docker.extension.dockerEngineAvailabilityPrompt": false,
   "docker.extension.enableComposeLanguageServer": false,
   "editor.bracketPairColorization.enabled": true,
+  "editor.formatOnSave": true,
   "editor.guides.bracketPairs": true,
   "editor.lineNumbers": "on",
   "editor.minimap.enabled": false,
@@ -37,27 +83,34 @@
   "gitlens.hovers.currentLine.over": "line",
   "go.coverOnSingleTest": true,
   "go.coverOnSingleTestFile": true,
+  "go.toolsEnvVars": {
+    "GOEXPERIMENT": "jsonv2"
+  },
   "go.toolsManagement.autoUpdate": true,
   "notebook.stickyScroll.enabled": true,
+  "redhat.telemetry.enabled": false,
   "remote.autoForwardPortsSource": "hybrid",
   "rest-client.previewOption": "exchange",
   "security.workspace.trust.untrustedFiles": "open",
   "sqltools.historySize": 50,
   "sqltools.results.limit": 10,
+  "sqltools.results.location": "none",
   "sqltools.results.reuseTabs": "connection",
   "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
   "terminal.integrated.stickyScroll.enabled": true,
   "terminal.integrated.suggest.enabled": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "workbench.tree.enableStickyScroll": true,
-  "dev.containers.defaultExtensions": [
-    "eamodio.gitlens",
-    "esbenp.prettier-vscode"
-  ],
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "window.density.layout": "compact",
+  "workbench.editor.autoLockGroups": {
+    "mainThreadWebview-browserPreview": false,
+    "mainThreadWebview-simpleBrowser.view": false,
+    "terminalEditor": false,
+    "workbench.editor.processExplorer": false
   },
-  "dev.containers.repositoryConfigurationPaths": [
-    "~/.devcontainer"
-  ]
+  "workbench.editorAssociations": {
+    "*.copilotmd": "vscode.markdown.preview.editor",
+    "*.md": "vscode.markdown.preview.editor"
+  },
+  "workbench.tree.enableStickyScroll": true
 }

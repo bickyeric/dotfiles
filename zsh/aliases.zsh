@@ -18,3 +18,6 @@ mysql() {
 mysqldump() {
   docker run --rm -it --network host --env MYSQL_HOST=127.0.0.1 mysql:8.0 mysqldump $@
 }
+
+# SUPERCHARGED CAT
+alias cat="bat"
